@@ -1,0 +1,32 @@
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+   <app-filtetemplate [checboxlist] ='uniqueArr' *ngIf ='uniqueArr'(groupFilters)="filterdata($event)"
+   ></app-filtetemplate>
+  </div>
+  <div class="col-md-8">
+    <!-- <div class="row">
+      <div class="col-lg-3 col-sm-6" *ngFor ="let product of products">
+        <div class="product-item">
+          <div class="pi-pic">
+            <img [src]="product?.imagepath" (click)="openSelectedProduct(product)"  alt="">
+             [routerLink]="'/productinfo'"
+            <div class="pi-links">
+              <a  [class.highlight]="product?.iscartAdded" class="add-card"><i class="flaticon-bag" (click)="addToCart(product,'cart')"></i></a>
+            <a [class.highlight]="product?.isVisited" class="wishlist-btn test" (click)="addToCart(product,'favourite')" ><i class="flaticon-heart"></i></a>
+            </div>
+          </div>
+          <div class="pi-text">
+            <h6>{{product?.cost}}</h6>
+            <p>{{product?.productname}} </p>
+          </div>
+        </div>
+      </div>
+     
+    </div> -->
+   <app-products [products] ='products'  [groupFilters]="filters"
+   *ngIf='products'
+   ></app-products>
+  </div>
+</div>
+</div>

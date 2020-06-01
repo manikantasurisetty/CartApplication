@@ -1,0 +1,77 @@
+﻿<ng-template #confirmtemplate>
+    <div>
+        <div class="cust-modal modal-dialog-center">
+            <div class="modal-header">
+                <div class="modal-title pull-left modal-heading">
+                    <span class="icon-Exclamation_mark_POS deloitte_icon_font_v3"></span>&nbsp;
+                    <span>{{confirmButtonText}}</span>
+                </div>
+                <div class="close-icon pull-right" (click)="decline()">
+                    <span class="icon-cross-special deloitte-special_font-v2 cursor-pointer"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p class="modal-text">{{messageText}} ? </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default bdr-radius btn-cancel" (click)="decline()">
+                    Cancel
+                </button>
+                <button type="submit" class="btn btn-danger bdr-radius delete-btn" (click)="confirm()">{{confirmButtonText}}</button>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #errorTemplate>
+    <div>
+        <div class="cust-modal modal-dialog-center">
+            <div class="modal-header">
+                <div class="modal-title pull-left modal-heading">
+                    <span class="icon-Exclamation_mark_POS deloitte_icon_font_v3"></span>&nbsp;
+                    <span>System Error</span>
+                </div>
+                <div class="close-icon pull-right" (click)="decline()">
+                    <span class="icon-cross-special deloitte-special_font-v2 cursor-pointer"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p class="modal-text">An Error has occurred. Please try again later. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default bdr-radius btn-cancel" (click)="decline()">
+                    Close
+                </button>
+                
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #successTemplate>
+    <div>
+        <div class="cust-modal modal-dialog-center">
+            <div class="modal-header">
+                <div class="modal-title pull-left modal-heading">
+                    <span class="icon-Information_POS unity_icon_fonts_set"></span>&nbsp;
+                    <span>Success</span>
+                </div>
+                <div class="close-icon pull-right" (click)="decline()">
+                    <span class="icon-cross-special deloitte-special_font-v2 cursor-pointer"></span>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <p class="modal-text">{{messageText}}</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default bdr-radius btn-cancel" (click)="decline()">
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+</ng-template>
+

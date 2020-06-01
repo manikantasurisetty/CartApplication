@@ -1,0 +1,62 @@
+<div class="card">
+  <form [formGroup]="registerForm" *ngIf ='checboxlist' >
+  <article class="card-group-item">
+    <header class="card-header">
+      <h6 class="title">Range input </h6>
+    </header>
+    <div class="filter-content">
+      <div class="card-body">
+      <div class="form-row">
+      <div class="form-group col-md-6">
+        <label>Min</label>
+        <input type="number" class="form-control" formControlName="Min" id="inputEmail4" placeholder="$0">
+      </div>
+      <div class="form-group col-md-6 text-right">
+        <label>Max</label>
+        <input type="number" class="form-control" formControlName="Max" placeholder="$1,0000">
+      </div>
+      </div>
+      </div> <!-- card-body.// -->
+    </div>
+  </article> <!-- card-group-item.// -->
+  <article class="card-group-item">
+    <header class="card-header">
+      <h6 class="title">Selection </h6>
+    </header>
+    <div class="filter-content">
+      <!-- <div class="card-body">
+        <div class="custom-control custom-checkbox">
+          <span class="float-right badge badge-light round">52</span>
+            <input type="checkbox" formControlName="Tshirts" class="custom-control-input" id="Check1">
+            <label class="custom-control-label" for="Check1">T-shirts</label>
+        </div> -->
+
+        <!-- <div class="custom-control custom-checkbox">
+          <span class="float-right badge badge-light round">132</span>
+            <input type="checkbox" class="custom-control-input" formControlName="Jeans" id="Check2">
+           <label class="custom-control-label" for="Check2">Jeans</label>
+        </div>  -->
+
+        <!-- <div class="custom-control custom-checkbox">
+          <span class="float-right badge badge-light round">17</span>
+            <input type="checkbox" class="custom-control-input" formControlName="Shirts" id="Check3">
+            <label class="custom-control-label" for="Check3">Shirts</label>
+        </div>  -->
+
+        <!-- <div class="custom-control custom-checkbox">
+          <span class="float-right badge badge-light round">7</span>
+            <input type="checkbox" class="custom-control-input" formControlName="shorts" id="Check4">
+            <label class="custom-control-label" for="Check4">shorts</label>
+        </div>  -->
+        
+        <div *ngFor="let skill of skills.controls; let i=index">
+          <input type="checkbox" [formControl]="skill"/> {{checboxlist[i]}}
+       </div>
+  
+  
+    </div>
+  </article> <!-- card-group-item.// -->
+  <button (click) ="submit(registerForm?.value)">submit</button>
+  <button (click) ="clear()">Clear</button>
+  </form>
+</div>

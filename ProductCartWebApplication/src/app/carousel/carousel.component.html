@@ -1,0 +1,12 @@
+<carousel class="carousel">
+  <ng-container *ngFor ="let imgdata of carouselList">
+  <slide >
+    <img [src]="imgdata.path" alt="first slide" style="display: block; width: 100%;">
+    <div class="carousel-caption d-none d-md-block">
+      <h3>{{imgdata.label}}</h3>
+      <p>{{imgdata.description}}</p>
+    </div>
+  </slide>
+</ng-container>
+
+</carousel>

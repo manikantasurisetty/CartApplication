@@ -1,0 +1,40 @@
+<div class="container" *ngIf='product'>
+  <div class="row">
+    <div class="col-md-4">
+    <img src="img/bg.jpg" alt="image" class="image">  
+    </div>
+    <div class="col-md-8">
+      <div>
+        <h3>{{product.productname}}</h3>
+      {{product.shortDescription}}
+      </div>
+      <div>
+        <h3>price</h3>
+        <p>$120.00</p>
+      </div>
+      <button class="btn btn-primary" [class.disabled]="product.iscartAdded" (click)="addToCart()">
+AddToCart
+      </button>
+      <button class="btn btn-danger">
+        AddToWishlist
+              </button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="">Description</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Product Info</a>
+        </li>
+      
+      </ul>
+        <p><strong>Note:</strong> {{product.description}}</p>
+      </div>
+    </div>
+  </div>

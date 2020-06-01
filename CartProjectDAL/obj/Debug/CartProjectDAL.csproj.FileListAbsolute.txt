@@ -1,0 +1,15 @@
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\CartProjectDAL.dll
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\CartProjectDAL.pdb
+C:\CartBackendApplication\CartProjectDAL\obj\Debug\CartProjectDAL.csprojAssemblyReference.cache
+C:\CartBackendApplication\CartProjectDAL\obj\Debug\CartProjectDAL.csproj.CoreCompileInputs.cache
+C:\CartBackendApplication\CartProjectDAL\obj\Debug\CartProjectDAL.dll
+C:\CartBackendApplication\CartProjectDAL\obj\Debug\CartProjectDAL.pdb
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Security.AccessControl.dll
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Security.Permissions.dll
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Security.Principal.Windows.dll
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Security.AccessControl.xml
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Security.Permissions.xml
+C:\CartBackendApplication\CartProjectDAL\bin\Debug\System.Security.Principal.Windows.xml
+C:\CartBackendApplication\CartProjectDAL\obj\Debug\CartProjectDAL.csproj.CopyComplete

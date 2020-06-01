@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="my-list">
+			<h4 style="text-align: center;">My {{listName}}</h4>
+			<app-products [products] ='products' [isList]="true"
+			*ngIf='products && products.length>0'
+			></app-products>
+			<div *ngIf='!products || products.length==0'>
+				No products added
+			</div>
+			<!-- <img src="http://hpservicecenterschennai.in/images/hp_laptop_service_centers_in_guindy.png" alt="dsadas" />
+			<h3>HP Core i3 6th Gen</h3>
+			<span>RS:45K</span>
+			<span class="pull-right">SKU:100022</span>
+			<div class="offer">Extra 5% Off. Cart value Rs 500</div>
+			<div class="detail">
+			<p>Glyphicons in Bootstrap : Bootstrap Includes over 250 glyphs in font format </p>
+			<img src="http://hpservicecenterschennai.in/images/hp_laptop_service_centers_in_guindy.png" alt="dsadas" />
+			<a href="#" class="btn btn-info">Add To Cart</a>
+			<a href="#" class="btn btn-info">Deatil</a>
+			</div> -->
+		</div>
+		</div>
+	
+		
+		</div>
+    </div>

@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+     <app-filtetemplate [checboxlist] ='uniqueArr' *ngIf ='uniqueArr'(groupFilters)="filterdata($event)"></app-filtetemplate>
+    </div>
+    <div class="col-md-8">
+      <app-products [products] ='products'  [groupFilters]="filters"
+      *ngIf='products'
+      ></app-products>
+    </div>
+  </div>
+  </div>

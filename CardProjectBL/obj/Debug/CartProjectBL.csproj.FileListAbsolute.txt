@@ -1,0 +1,13 @@
+C:\CartBackendApplication\CardProjectBL\bin\Debug\CardProjectBL.dll
+C:\CartBackendApplication\CardProjectBL\bin\Debug\CardProjectBL.pdb
+C:\CartBackendApplication\CardProjectBL\obj\Debug\CartProjectBL.csprojAssemblyReference.cache
+C:\CartBackendApplication\CardProjectBL\obj\Debug\CartProjectBL.csproj.CoreCompileInputs.cache
+C:\CartBackendApplication\CardProjectBL\obj\Debug\CardProjectBL.dll
+C:\CartBackendApplication\CardProjectBL\obj\Debug\CardProjectBL.pdb
+C:\CartBackendApplication\CardProjectBL\bin\Debug\CartProjectCommonLayer.dll
+C:\CartBackendApplication\CardProjectBL\bin\Debug\CartProjectDAL.dll
+C:\CartBackendApplication\CardProjectBL\bin\Debug\Newtonsoft.Json.dll
+C:\CartBackendApplication\CardProjectBL\bin\Debug\CartProjectCommonLayer.pdb
+C:\CartBackendApplication\CardProjectBL\bin\Debug\CartProjectDAL.pdb
+C:\CartBackendApplication\CardProjectBL\bin\Debug\Newtonsoft.Json.xml
+C:\CartBackendApplication\CardProjectBL\obj\Debug\CartProjectBL.csproj.CopyComplete

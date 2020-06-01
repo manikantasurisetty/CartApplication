@@ -1,0 +1,41 @@
+{"productinfo" :[
+    {"id":1,
+    "imagepath":"./img/product/5.jpg",
+    "cart":"ADD TO CART",
+    "cost":"$35,00",
+    "productname":"Flamboyant Pink Top",
+    "shortDescription":"This example shows how to create a basic navigation tab. It is not toggleable/dynamic yet (you can't click on the links to display different content)- see the last example in the Bootstrap Tabs and Pills Tutorial to find out how this can be done",
+    "description":"This example shows how to create a basic navigation tab. It is not toggleable/dynamic yet (you can't click on the links to display different content)- see the last example in the Bootstrap Tabs and Pills Tutorial to find out how this can be done",
+    "reviews":[{
+    "id":1,
+    "reviewerName":"Mani S",
+    "date":"12/02/2019",
+    "reviewerDescripton":"This example shows how to create a basic navigation tab. It is not toggleable"
+    },{
+        "id":1,
+    "reviewerName":"Mani V",
+    "date":"12/02/2019",
+    "reviewerDescripton":"This example shows how to create a basic navigation tab. It is not toggleable"
+
+
+
+    }],
+    "productInfo":{
+        "description":"ascsdafafsdfs",
+        "type":"kvsdkvsd"
+    }
+
+
+},
+    {"id":2,"imagepath":"./img/product/6.jpg","cart":"ADD TO CART","cost":"$37,00","productname":"Flamboyant White StripesTop"},
+    {"id":3,"imagepath":"./img/product/7.jpg","cart":"ADD TO CART","cost":"$45,00","productname":"Black and White Stripes Dress"},
+    {"id":4,"imagepath":"./img/product/8.jpg","cart":"ADD TO CART","cost":"$51,00","productname":"Pink Top"},
+    {"id":5,"imagepath":"./img/product/9.jpg","cart":"ADD TO CART","cost":"$25,00","productname":"Flamboyant Pink Top"},
+    {"id":6,"imagepath":"./img/product/10.jpg","cart":"ADD TO CART","cost":"$75,00","productname":"White Stripes"},
+    {"id":7,"imagepath":"./img/product/11.jpg","cart":"ADD TO CART","cost":"$35,00","productname":"Flamboyant Pink Top"},
+    {"id":8,"imagepath":"./img/product/12.jpg","cart":"ADD TO CART","cost":"$53,00","productname":"Black and White Stripes Dress"}
+
+
+
+
+]}

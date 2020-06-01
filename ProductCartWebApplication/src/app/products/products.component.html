@@ -1,0 +1,46 @@
+<div class="row productList">
+  <div class="col-lg-3 col-sm-6" [class.col-lg-12]="isList" *ngFor ="let product of filteredProducts">
+    <div class="product-item">
+      <div class="pi-pic">
+        <img [src]="product?.imagepath" (click)="openSelectedProduct(product)"  alt="">
+        <!-- [routerLink]="'/productinfo'" -->
+        <div class="pi-links" *ngIf='!isList'>
+          <a  [class.highlight]="product?.iscartAdded" class="add-card"><i class="flaticon-bag" (click)="addToCart(product,'cart')"></i></a>
+        <a [class.highlight]="product?.isVisited" class="wishlist-btn test" (click)="addToCart(product,'favourite')" ><i class="flaticon-heart"></i></a>
+        </div>
+        <div class="pi-links" *ngIf='isList'>
+             <label>
+               Quantity
+             </label> 
+             <input type='number' min="1" [(ngModel)]="product.quantity"
+             (change)="dataChanged(product)"
+             >
+             <button class="btb btn-danger" style="margin-left:5px" (click)="removeFromCart(product)" >
+              Remove
+            </button>
+              <button class="btb btn-primary" style="margin-left:5px" (click)="orderProduct(product)">
+                Order
+              </button>
+        </div>
+      </div>
+      <div class="pi-text">
+        <h6>${{product?.cost}}</h6>
+        <p>{{product?.productname}} </p>
+        {{product?.type}}
+      </div>
+    </div>
+  </div>
+
+  <div class="pull-right">
+     Total Price: {{totalPrice}}
+  </div>
+ 
+</div>
+<div *ngIf="successmodel">
+    <confirm-modal [messageText]="successText"
+                   modalType="Success"
+                   [confirmButtonText]="'close'"
+                   headerText='Success'>
+    </confirm-modal>
+</div>
+
